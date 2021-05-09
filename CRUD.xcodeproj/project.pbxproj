@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57224E912647454500408D3C /* CreateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E902647454500408D3C /* CreateResponse.swift */; };
+		57224E9326474EBB00408D3C /* UpdateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E9226474EBB00408D3C /* UpdateResponse.swift */; };
+		57224E952647501F00408D3C /* ReadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E942647501F00408D3C /* ReadResponse.swift */; };
+		57224E972647516A00408D3C /* DeleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57224E962647516A00408D3C /* DeleteResponse.swift */; };
 		577176BA2646ABA700332395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176B92646ABA700332395 /* AppDelegate.swift */; };
 		577176BC2646ABA700332395 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176BB2646ABA700332395 /* SceneDelegate.swift */; };
-		577176BE2646ABA700332395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176BD2646ABA700332395 /* ViewController.swift */; };
+		577176BE2646ABA700332395 /* CrudVcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176BD2646ABA700332395 /* CrudVcView.swift */; };
 		577176C12646ABA700332395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577176BF2646ABA700332395 /* Main.storyboard */; };
 		577176C32646ABA800332395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577176C22646ABA800332395 /* Assets.xcassets */; };
 		577176C62646ABA800332395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577176C42646ABA800332395 /* LaunchScreen.storyboard */; };
+		577176D22646AFC900332395 /* CrudVcProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176D12646AFC900332395 /* CrudVcProtocols.swift */; };
+		577176D42646AFD400332395 /* CrudVcPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176D32646AFD400332395 /* CrudVcPresenter.swift */; };
+		577176D72646B08600332395 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176D62646B08600332395 /* ApiConfiguration.swift */; };
+		577176D92646B09300332395 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176D82646B09300332395 /* ApiRouter.swift */; };
+		577176DB2646B0A100332395 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176DA2646B0A100332395 /* Constant.swift */; };
+		577176DD2646B0AF00332395 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577176DC2646B0AF00332395 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57224E902647454500408D3C /* CreateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateResponse.swift; sourceTree = "<group>"; };
+		57224E9226474EBB00408D3C /* UpdateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateResponse.swift; sourceTree = "<group>"; };
+		57224E942647501F00408D3C /* ReadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadResponse.swift; sourceTree = "<group>"; };
+		57224E962647516A00408D3C /* DeleteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteResponse.swift; sourceTree = "<group>"; };
 		577176B62646ABA700332395 /* CRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577176B92646ABA700332395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		577176BB2646ABA700332395 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		577176BD2646ABA700332395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		577176BD2646ABA700332395 /* CrudVcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudVcView.swift; sourceTree = "<group>"; };
 		577176C02646ABA700332395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		577176C22646ABA800332395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577176C52646ABA800332395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		577176C72646ABA800332395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577176D12646AFC900332395 /* CrudVcProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudVcProtocols.swift; sourceTree = "<group>"; };
+		577176D32646AFD400332395 /* CrudVcPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudVcPresenter.swift; sourceTree = "<group>"; };
+		577176D62646B08600332395 /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
+		577176D82646B09300332395 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		577176DA2646B0A100332395 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		577176DC2646B0AF00332395 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57224E8F264744F200408D3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57224E902647454500408D3C /* CreateResponse.swift */,
+				57224E942647501F00408D3C /* ReadResponse.swift */,
+				57224E9226474EBB00408D3C /* UpdateResponse.swift */,
+				57224E962647516A00408D3C /* DeleteResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		577176AD2646ABA700332395 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +87,62 @@
 		577176B82646ABA700332395 /* CRUD */ = {
 			isa = PBXGroup;
 			children = (
-				577176B92646ABA700332395 /* AppDelegate.swift */,
-				577176BB2646ABA700332395 /* SceneDelegate.swift */,
-				577176BD2646ABA700332395 /* ViewController.swift */,
-				577176BF2646ABA700332395 /* Main.storyboard */,
+				577176CE2646ABB800332395 /* Storyboard */,
+				577176CF2646AF6400332395 /* Scene */,
+				57224E8F264744F200408D3C /* Model */,
+				577176D52646B00C00332395 /* Network_layer */,
+				577176CD2646ABAD00332395 /* Delegates */,
 				577176C22646ABA800332395 /* Assets.xcassets */,
 				577176C42646ABA800332395 /* LaunchScreen.storyboard */,
 				577176C72646ABA800332395 /* Info.plist */,
 			);
 			path = CRUD;
+			sourceTree = "<group>";
+		};
+		577176CD2646ABAD00332395 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				577176BB2646ABA700332395 /* SceneDelegate.swift */,
+				577176B92646ABA700332395 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		577176CE2646ABB800332395 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				577176BF2646ABA700332395 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		577176CF2646AF6400332395 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				577176D02646AF6F00332395 /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		577176D02646AF6F00332395 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				577176BD2646ABA700332395 /* CrudVcView.swift */,
+				577176D12646AFC900332395 /* CrudVcProtocols.swift */,
+				577176D32646AFD400332395 /* CrudVcPresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		577176D52646B00C00332395 /* Network_layer */ = {
+			isa = PBXGroup;
+			children = (
+				577176D62646B08600332395 /* ApiConfiguration.swift */,
+				577176D82646B09300332395 /* ApiRouter.swift */,
+				577176DA2646B0A100332395 /* Constant.swift */,
+				577176DC2646B0AF00332395 /* NetworkManager.swift */,
+			);
+			path = Network_layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +215,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577176BE2646ABA700332395 /* ViewController.swift in Sources */,
+				57224E952647501F00408D3C /* ReadResponse.swift in Sources */,
+				577176DD2646B0AF00332395 /* NetworkManager.swift in Sources */,
+				577176BE2646ABA700332395 /* CrudVcView.swift in Sources */,
+				577176D22646AFC900332395 /* CrudVcProtocols.swift in Sources */,
+				577176D42646AFD400332395 /* CrudVcPresenter.swift in Sources */,
+				57224E972647516A00408D3C /* DeleteResponse.swift in Sources */,
+				577176DB2646B0A100332395 /* Constant.swift in Sources */,
 				577176BA2646ABA700332395 /* AppDelegate.swift in Sources */,
+				57224E9326474EBB00408D3C /* UpdateResponse.swift in Sources */,
 				577176BC2646ABA700332395 /* SceneDelegate.swift in Sources */,
+				577176D72646B08600332395 /* ApiConfiguration.swift in Sources */,
+				57224E912647454500408D3C /* CreateResponse.swift in Sources */,
+				577176D92646B09300332395 /* ApiRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
